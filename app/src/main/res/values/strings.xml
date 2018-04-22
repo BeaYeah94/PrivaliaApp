@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PrivaliaApp</string>
+    <string name="search_hint">Type keywords&#8230;</string>
+    <string name="toolbar_title">Popular movies</string>
+    <string name="network_error">Please check your internet connection</string>
+    <string name="response_error">"Something went wrong"</string>
+    <string name="no_more_results">No more results available</string>
+    <string name="search_title">Search for movies</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivaliaApp</string>
+    <string name="search_hint">Escriba palabras clave&#8230;</string>
+    <string name="toolbar_title">Películas más populares</string>
+    <string name="network_error">Error de conexión, por favor comprueba tu conexión a internet.</string>
+    <string name="response_error">Ha ocurrido un error inesperado</string>
+    <string name="no_more_results">No hay más resultados disponibles.</string>
+    <string name="search_title">Busca cualquier película</string>
+</resources>
