@@ -9,7 +9,7 @@
     android:layout_marginEnd="10dp"
     android:layout_marginTop="5dp"
     app:cardUseCompatPadding="true"
-    app:cardCornerRadius="2dp"
+    app:cardCornerRadius="4dp"
     app:cardElevation="2dp"
     app:cardBackgroundColor="#fff">
 
@@ -21,17 +21,22 @@
 
             <TextView
                 android:id="@+id/tv_title"
+                android:paddingBottom="16dp"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            <com.facebook.drawee.view.SimpleDraweeView
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/movie_poster"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"
-                fresco:actualImageScaleType="fitXY"
+                android:scaleType="centerInside"
+                fresco:actualImageScaleType="centerInside"
                 fresco:fadeDuration="300"
                 fresco:placeholderImage="@color/colorPlaceholder"
                 fresco:roundAsCircle="false"
@@ -41,7 +46,7 @@
                 android:id="@+id/film_overview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="16dp" />
 
     </LinearLayout>
 

@@ -7,4 +7,6 @@
     <string name="response_error">Ha ocurrido un error inesperado</string>
     <string name="no_more_results">No hay más resultados disponibles.</string>
     <string name="search_title">Busca cualquier película</string>
+    <string name="film_title">%1$s (%2$s)</string>
+    <string name="no_results_query">No se han encontrado resultados para \' %1$s \'</string>
 </resources>

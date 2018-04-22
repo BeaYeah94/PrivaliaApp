@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PrivaliaApp</string>
     <string name="search_hint">Type keywords&#8230;</string>
@@ -6,4 +7,6 @@
     <string name="response_error">"Something went wrong"</string>
     <string name="no_more_results">No more results available</string>
     <string name="search_title">Search for movies</string>
+    <string name="film_title">%1$s (%2$s)</string>
+    <string name="no_results_query">No results found for \' %1$s \'</string>
 </resources>
